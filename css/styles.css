@@ -734,9 +734,9 @@ li {
 }
 
 .subscrime-input {
-  /*width: 357px;*/
+  width: 358px;
   height: 50px;
-  /*margin-right: 12px;*/
+  margin-right: 12px;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: none;
@@ -767,7 +767,6 @@ li {
   border-radius: 4px;
   cursor: pointer;
   display: flex;
-  position: absolute;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -783,7 +782,7 @@ li {
   height: 24px;
   margin-left: 10px;
   margin-right: 28px;
-  background-image: url("../images/iconsend.svg");
+  /*background-image: url("../images/iconsend.svg");*/
 }
 
 /*=======end CONTAKT=======*/

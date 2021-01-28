@@ -10,9 +10,9 @@
           rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-<header class="header container">
-    <div class="container">
+
+<header class="header container shapka-line">
+    <div class="container ">
         <nav class="navigation">
             <a class="logo link" href="index.html" aria-label="логотип сайта"><span class="logo-half">Web</span>Studio</a>
             <ul class="navigation-list list">
@@ -208,15 +208,15 @@
     </section>
 
     <!--CONTAKT-->
-    <section class="contakt">
+    <footer class="contakt">
         <div class="contact-block container">
             <div class="contakt-div">
                 <a class="contakt-logo link" href="./index.html" aria-label="логотип сайта"><span
                         class="logo-half">Web</span>Studio</a>
                 <ul class="contakt-side list">
                     <li class="contakt-list">
-                        <a class="contakt-map link" href="https://goo.gl/maps/9d3zrv8kZXbxStkZ6" target="_blunk">г. Киев, пр-т
-                            Леси Украинки, 26</a>
+                        <a class="contakt-map link" href="https://goo.gl/maps/9d3zrv8kZXbxStkZ6" target="_blunk">г. Киев,
+                            пр-т Леси Украинки, 26</a>
                     </li>
                     <li class="contakt-list">
                         <a class="contakt-mail-tel link" href="mailto:info@example.com">info@example.com</a>
@@ -259,8 +259,20 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe">
+                <p class="subscribe-title">Подпишитесь на рассылку</p>
+                <form class="container-subscribe">
+                    <input class="subscrime-input" type="email" name="send" id="send" placeholder="E-mail">
+                    <button class="btn-subscribe">
+                        Подписаться
+                        <svg>
+                            <use href="./images/iconplane.svg"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
-    </section>
+    </footer>
 </main>
 </body>
 </html>
